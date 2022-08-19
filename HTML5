@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>wxproducao@gmail.com
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+  <title>Luiz@Devzin</title>
+</head>
+
+<body>
+  <i class="uil uil-angle-up up"></i>
+  <header>
+    <h2>Portfolio..</h2>
+    <ul>
+      <li><a href="#home" id="nav1">início</a></li>
+      <li><a href="#services" id="nav2">Serviços</a></li>
+      <li><a href="#skills" id="nav3">Habilidades</a></li>
+      <li><a href="#contact" id="nav4">Contato</a></li>
+      <li>
+        <div class="switch">
+          <div class="switchcircle">
+            <ion-icon name="moon-outline"></ion-icon>
+          </div>
+        </div>
+      </li>
+    </ul>
+    <i class="uil uil-bars menu"></i>
+  </header>
+  <section id="home">
+    <div class="left">
+      <span>Olá Muito Prazer</span>
+      <h3>Eu Sou Luiz Marcos Desenvolvedor Web</h3>
+      <span class="des">Eu Desenvolvo Web Sites</span>
+      <button><a href="#skills">Veja Minhas Habilidades</a></button>
+    </div>
+    <div class="right">
+      <img src="portimg.svg">
+    </div>
+    <h1 class="bgtitle">DEFCON</h1>
+    <h1 class="ya">HOST</h1>
+    <div class="circle1"></div>
+    <div class="circle2"></div>
+    <div class="circle3"></div>
+  </section>
+  <section id="services">
+    <h1 class="title">Serviços</h1>
+    <div class="cards">
+      <div class="card">
+        <div class="bgcard"></div>
+        <ion-icon name="logo-html5" class="html"></ion-icon>
+        <h3>HTML5</h3>
+        <p>Habilidade De Escrever Manipular E Desenvolver Os Melhores Sistes E Scripts<br></p>
+      </div>
+      <div class="card">
+        <div class="bgcard"></div>
+        <ion-icon name="logo-css3" class="css"></ion-icon>
+        <h3>CSS3</h3>
+        <p>Habilidade De Escrever Manipular E Desenvolver Os Melhores Layouts Visuais Para Seu Site!<br></p>
+      </div>
+      <div class="card">
+        <div class="bgcard"></div>
+        <ion-icon name="logo-javascript" class="js"></ion-icon>
+        <h3>Java Script</h3>
+        <p>Habilidade De Inclementar Recursos E Manipular Banco De Dados E Escrever Codigos Fontes Da Melhor Maneira Possivel Nesta Linguagem!<br></p>
+      </div>
+    </div>
+  </section>
+  <section id="skills">
+    <h1 class="title">Habilidades</h1>
+    <div class="content">
+      <div class="skills">
+        <div class="skill">
+          <span class="htmlbar">HTML</span><br>
+          <div class="bar"></div>
+          <div class="activebar" id="bar1"></div>
+        </div>
+        <div class="skill">
+          <span class="cssbar">CSS</span><br>
+          <div class="bar"></div>
+          <div class="activebar" id="bar2"></div>
+        </div>
+        <div class="skill">
+          <span class="jsbar">JavaScript</span><br>
+          <div class="bar"></div>
+          <div class="activebar" id="bar3"></div>
+        </div>
+      </div>
+      <div class="para">
+        <h3>Minhas Habilidades!!</h3>
+        <p>MEU HTML É PERFEITO MEU CSS MEDIANO E MEU JAVA SCRIPT POUCO APROFUNDADO MAS AINDA SIM BOM EM QUALIDADE</p>
+      </div>
+    </div>
+    <h1 class="bgskill">Skills</h1>
+    <div class="circle4"></div>
+    <div class="circle5"></div>
+  </section>
+  <section id="contact">
+    <h1 class="title">Contact</h1>
+    <div class="cards">
+      <div class="card">
+        <ion-icon name="call-outline"></ion-icon>
+        <h3>WhatsApp</h3>
+        <p>+55(44)99845861</p>
+      </div>
+      <div class="card">
+        <ion-icon name="mail-outline"></ion-icon>
+        <h3>Email</h3>
+        <p>nokiachostnet@gmail.com</p>
+        </div>
+        </div class="card">
+        <ion-icon name="administrador"></ion-icon>
+        <p>companhia sulamericana de informação</p>
+      </div>
+    </div>
+  </section>
+  <script src="script.js"></script>
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https: // unpkg .com / ionicons @ 5.5.2 / dist / ionicons / ionicons.js"></script>
+</body>
+
+</html>
